@@ -19,4 +19,10 @@ font-size: 22pt;
 font-family: Arial;
 }
 
+p.paragraph-dz {
+font-style: italic;
+text-align: center;
+font-size: 24px;
+text-shadow: green 1px 3px
+}
 
