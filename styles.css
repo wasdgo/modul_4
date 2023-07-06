@@ -1,0 +1,22 @@
+p.paragraph-1 {
+background:yellow ;
+font-size:  32pt;
+color: green ;
+}
+
+h1 {background: gray;}
+
+
+p.paragraph-2 {
+border: 10px solid green;
+border-radius: 5px;
+font-size:26pt ;
+}
+
+p.paragraph-3 {
+font-weight: bold;
+font-size: 22;
+font-family: Arial;
+}
+
+
