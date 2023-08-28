@@ -9,6 +9,12 @@ class Advertisement(models.Model):
     auction = models.BooleanField('торг', help_text='отметьте, если торг уместен')
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+    class Meta:
+     db_table = "advertisements"
+
+    def __str__(self):
+     return f"Advertisement(id={self.id}, title={self.title}, price={self.price})"
+
 
 
 
